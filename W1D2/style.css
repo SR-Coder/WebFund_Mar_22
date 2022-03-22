@@ -1,0 +1,74 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font of some type */
+}
+
+
+.red-text{
+    color: red;
+}
+
+/* selected via the html tag itself */
+body{
+    background-color: lightblue;
+    padding: 50px;
+}
+
+
+/* selected via the class */
+.main-content{
+    background-color: white;
+    padding: 20px;
+}
+
+header{
+    background: linear-gradient(161deg, rgba(63,94,251,1) 0%, rgba(161,179,72,1) 32%, rgba(179,82,97,1) 47%, rgba(101,101,160,1) 69%, rgba(177,86,169,1) 84%, rgba(252,70,107,1) 100%);
+    padding: 20px;
+    color: whitesmoke;
+}
+
+header nav a{
+    color: aliceblue;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: blue;
+    text-shadow: 2px 2px white;
+}
+
+a{
+    color: red;
+}
+
+.container{
+    background-color: lightgreen;
+    margin-top: 20px;
+}
+
+.jims-box-shadow{
+    box-shadow: 2px 2px 5px black;
+}
+
+/* selected via the html id */
+#side-nav{
+    background-color: blue;
+    color: whitesmoke;
+    width: 200px;
+    padding: 10px;
+
+    display: inline-block;
+
+
+}
+
+.main{
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    background-color: rebeccapurple;
+    color: whitesmoke;
+}
