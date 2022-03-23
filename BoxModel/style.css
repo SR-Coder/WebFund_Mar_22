@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: whitesmoke;
+}
+
+.std{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+
+}
+
+.main{ /* parent of std */
+    /* we apply flex to the parent of what we want to organize */
+    display: flex;
+    width: 600px;
+    background-color: brown;
+}
+
+#box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}

@@ -35,3 +35,5 @@ for(var i=0; i<10; i++) {
     
 console.log("outside of the loop " + i);
 
+
+
