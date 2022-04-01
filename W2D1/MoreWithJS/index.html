@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body oncontextmenu="return false;">
+    <div class="container">
+        <nav>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis sint quis id eos quae reprehenderit illo adipisci amet ipsam sit saepe dolores cum facilis porro iste, ratione est beatae. Nisi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur nihil necessitatibus iusto autem fugiat, facere aperiam asperiores amet harum ad. Perferendis obcaecati voluptate consequuntur vero magnam atque harum illo laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis facilis optio quod, nesciunt tempore eum distinctio consequuntur, dolorem alias temporibus tempora a nobis deleniti doloremque. Explicabo accusamus libero ducimus animi?</p>
+        </nav>
+        <div class="main-content">
+            <div class="card">
+                <img onmousedown="clicked(event)"  onmouseover="swapIn(this)" onmouseout="swapOut(this)" src="http://www.placekitten.com/400/400" alt="">
+                <div class="menu" hidden>
+                    <ul>
+                        <li onclick="displayAlert()">About</li>
+                        <li>Save</li>
+                        <li>Copy</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+<script src="./script.js"></script>
+</body>
+</html>
